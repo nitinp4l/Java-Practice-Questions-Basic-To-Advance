@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.math.*;
 
 public class JB_08_check_vowel_and_consonants {
     public static void main(String[] args) {
