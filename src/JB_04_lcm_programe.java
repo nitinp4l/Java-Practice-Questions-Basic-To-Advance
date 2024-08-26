@@ -1,7 +1,14 @@
 public class JB_04_lcm_programe {
     public static void main(String[] args) {
-        int n1=72,n2=120,lcm;
-      lcm=(n1>n2) ? n1 :n2;
+        int n1=60,n2=12,lcm;
+        /**  if  n1 is greater then n2 then
+        // use ? to check who is greater
+        // n1:n2
+        // if n1 is greater then true
+        // otherwise false....
+         */
+
+      lcm = ( n1 > n2) ? n1:n2;
       while(true)
       {
           if (lcm %n1 ==0 && lcm %n2==0)
